@@ -1,5 +1,5 @@
 let myResume={
-    "basics": {
+    "personalInfo": {
       "name": "FIDEL CASTRO.P",
       "email": "fidelcastroprp@gmail.com",
       "phone": +79962054966,
@@ -18,7 +18,7 @@ let myResume={
         }
       ]
     },
-    "work": [
+    "job": [
       {
         "Organisation": "National Research Tomsk Polytechnic University",
         "position": "Junior research fellow",
@@ -39,7 +39,7 @@ let myResume={
     ],
     "skills": [
       {
-        "name": "python,javascript",
+        "name": "javascript",
         "level": "Intermediate",
         "project": [
           "calculator,ecommerce website"
