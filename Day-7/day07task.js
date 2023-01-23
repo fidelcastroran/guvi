@@ -51,12 +51,10 @@ request.send();
 request.onload=function(){
     var result=JSON.parse(request.response);
 
-    const addPopulation = result.reduce((accumulator, data) => { accumulator + data.population;
-    return accumulator + data.population;
-    
-})
-console.log(addPopulation)}
+    const addPopulation = result.reduce((accumulator, data) => { ("accumulator" , accumulator) ;
+    return accumulator + data.population},0)
 
+console.log(addPopulation)}
 
 
 // e.Print the country which uses US Dollars as currency.
