@@ -63,13 +63,10 @@ request.open("GET","https://restcountries.com/v3.1/all");
 request.send();
 request.onload=function(){
     var result=JSON.parse(request.response);
-    for(var i in result){
-        console.log(i,result[i].currencies[0].code)
-   
-  }
- var out=result.filter((data)=>{
-        return  (data[i].currencies[0].code == "USD")
-    })
+ var out=result.filter((data)=> data.currencies?.USD)
+
+        // return  (data[i].currencies[0].code == "USD")
+
     console.log(out)
   
 }
