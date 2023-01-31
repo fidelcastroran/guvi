@@ -17,7 +17,7 @@ var Person = function (firstname, lastname, age) {
   console.log(helo.toString());
   
   /************************************
-   * Second method to create a classe *
+   * Second method to create a class *
    * **********************************/
   
   var Person = function (firstname, lastname, age) {
