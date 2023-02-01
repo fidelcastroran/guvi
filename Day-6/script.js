@@ -55,5 +55,5 @@ class pric{
     }
 }
 
-var pri = new pric(10,20)
+pri = new pric(10,20)
 pri.something(4)
