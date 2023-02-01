@@ -56,4 +56,4 @@ class pric{
 }
 
 var pri = new pric(10,20)
-console.log(pri)
+pri.something(4)
